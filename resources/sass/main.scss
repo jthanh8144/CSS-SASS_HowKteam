@@ -1,4 +1,5 @@
 @import './Abstracts/variable';
+@import './Abstracts/mixin';
 @import './Base/animations';
 @import './Base/base';
 @import './Base/typography';
@@ -13,3 +14,5 @@
 @import './Components/bg-video';
 @import './Components/enroll';
 @import './Components/form';
+@import './Components/footer';
+@import './Components/popup';
