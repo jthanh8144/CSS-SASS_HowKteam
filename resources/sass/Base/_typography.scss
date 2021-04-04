@@ -1,7 +1,7 @@
-html{
+body{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 62.5%;
+    font-size: 1.6rem;
     color: $color-grey;
     line-height: 1.7;
 }
@@ -22,6 +22,11 @@ html{
         font-weight: 400;
         letter-spacing: 15px;
         animation: moveInLeft 1s ease-out;
+
+        @include respond(phone){
+            letter-spacing: 1rem;
+            font-size: 5rem;
+        }
     }
 
     &--sub{
@@ -30,6 +35,10 @@ html{
         font-weight: 700;
         letter-spacing: 18px;
         animation: moveInRight 1s ease-out;
+
+        @include respond(phone){
+            letter-spacing: .5rem;
+        }
     }
 }
 
@@ -47,6 +56,14 @@ html{
     -webkit-background-clip: text;
 
     transition: all .2s;
+
+    @include respond(tab-port){
+        font-size: 3rem;
+    }
+
+    @include respond(phone){
+        font-size: 2.5rem;
+    }
 
     &:hover{
         transform: skewY(5deg) scale(1.1);

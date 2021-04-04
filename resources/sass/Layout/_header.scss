@@ -24,4 +24,8 @@
         top: 30px;
         left: 30px;
     }
+
+    @include respond(phone){
+        clip-path: ellipse(60% 50% at 50% 20%);
+    }
 }
