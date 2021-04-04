@@ -1,6 +1,13 @@
 .form{
-    &__group:not(:last-child){
-        margin-bottom: 2rem;
+    &__group{
+        &:not(:last-child){
+            margin-bottom: 2rem;
+        }
+        &:last-child{
+            @include respond(phone){
+                text-align: center;
+            }
+        }
     }
 
     &__input{

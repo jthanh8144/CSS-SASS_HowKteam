@@ -19,9 +19,11 @@
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
         border-radius: 5rem;
         overflow: hidden;
-        
+
         @include respond(tab-port){
             height: auto;
+            position: relative;
+            border-radius: 5rem 5rem 0rem 0rem;
         }
 
         &--front{
@@ -31,6 +33,11 @@
         &--back{
             background-color: green;
             transform: rotateY(180deg);
+
+            @include respond(tab-port){
+                transform: rotateY(0);
+                border-radius: 0rem 0rem 5rem 5rem;
+            }
 
             &-1{
                 background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
@@ -68,6 +75,10 @@
 
     &:hover &__side--front{
         transform: rotateY(-180deg);
+
+        @include respond(tab-port){
+            transform: rotateY(0);
+        }
     }
 
     &:hover &__side--back{
@@ -129,6 +140,15 @@
         transform: translate(-50%, -50%);
         text-align: center;
         width: 90%;
+
+        @include respond(tab-port){
+            position: relative;
+            transform: translate(0);
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 4rem;
+        }
     }
 
     &__price-box{
@@ -136,6 +156,9 @@
         color: $color-white;
         margin-bottom: 8rem;
 
+        @include respond(tab-port){
+            margin-bottom: 3rem;
+        }
     }
 
     &__price-only{

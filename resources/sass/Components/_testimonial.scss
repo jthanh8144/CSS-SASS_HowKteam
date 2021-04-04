@@ -9,6 +9,11 @@
     background-color: rgba($color-white, .1);
     padding-left: 9rem;
 
+    @include respond(tab-port){
+        width: 140%;
+        margin-left: -20%;
+    }
+
     &__shape{
         width: 15rem;
         height: 15rem;
