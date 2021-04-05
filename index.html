@@ -54,9 +54,15 @@
                 </div>
                 <div class="col span-1-of-2 about-img-align">
                     <div class="composition">
-                        <img src="./resources/img/humangroups1.jpg" alt="photo1" class="composition__photo composition__photo--photo1">
-                        <img src="./resources/img/humangroups2.jpg" alt="photo2" class="composition__photo composition__photo--photo2">
-                        <img src="./resources/img/humangroups3.jpg" alt="photo3" class="composition__photo composition__photo--photo3">
+                        <img srcset="./resources/img/humangroups1.jpg 1920w, ./resources/img/humangroups1.jpg 600w" 
+                            sizes="(max-width: 900px) 13vw, (max-width: 600px) 20vw, 270px" src="./resources/img/humangroups1.jpg"
+                            alt="photo1" class="composition__photo composition__photo--photo1">
+                        <img srcset="./resources/img/humangroups2.jpg 1920w, ./resources/img/humangroups2.jpg 600w" 
+                            sizes="(max-width: 900px) 13vw, (max-width: 600px) 20vw, 270px"src="./resources/img/humangroups2.jpg" 
+                            alt="photo2" class="composition__photo composition__photo--photo2">
+                        <img srcset="./resources/img/humangroups3.jpg 1920w, ./resources/img/humangroups3.jpg 600w" 
+                            sizes="(max-width: 900px) 13vw, (max-width: 600px) 20vw, 270px" src="./resources/img/humangroups3.jpg" 
+                            alt="photo3" class="composition__photo composition__photo--photo3">
                     </div>
                 </div>
             </div>
@@ -323,8 +329,8 @@
     <footer class="footer">
         <div class="footer__logo-box">
             <picture>
-                <!-- <source media="(max-width: 600px" srcset="../CSS-SASS/resources/img/logopng.png 1x" sizes=""> -->
-                <img src="./resources/img/logopng.png" class="footer__logo">
+                <source media="(max-width: 600px" srcset="./resources/img/logopng-small.png 1x" sizes="">
+                <img srcset="./resources/img/logopng.png" class="footer__logo">
             </picture>
             <h3 class="heading-secondary footer__title">
                 Selftaught

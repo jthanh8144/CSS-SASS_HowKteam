@@ -197,6 +197,9 @@ body {
   position: relative;
   height: 95vh;
   clip-path: ellipse(67% 59% at 51% 34%); }
+  @media (min-resolution: 192dpi) and (max-width: 990px) {
+    .header {
+      background-image: linear-gradient(to right bottom, rgba(142, 158, 252, 0.8)); } }
   .header__text-box {
     position: absolute;
     top: 50%;
