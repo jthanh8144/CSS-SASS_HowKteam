@@ -226,7 +226,7 @@ body {
       margin-top: -40rem; } }
 
 .section-skills {
-  background-image: linear-gradient(to right bottom, rgba(142, 158, 252, 0.8), rgba(28, 62, 255, 0.8)), url("../../../resources/img/background2.jpg");
+  background-image: linear-gradient(to right bottom, rgba(142, 158, 252, 0.8), rgba(28, 62, 255, 0.8)), url("../img/background2.jpg");
   background-size: cover;
   position: relative;
   padding: 20rem 0;
@@ -395,11 +395,11 @@ body {
     height: 23rem;
     clip-path: ellipse(80% 70% at 50% 30%); }
     .card__picture--p1 {
-      background-image: linear-gradient(to right, #ffb900, #ff7730), url(../../../resources/img/involve1.jpg); }
+      background-image: linear-gradient(to right, #ffb900, #ff7730), url("../img/involve1.jpg"); }
     .card__picture--p2 {
-      background-image: linear-gradient(to right, #8e9efc, #1c3eff), url(../../../resources/img/involve2.jpg); }
+      background-image: linear-gradient(to right, #8e9efc, #1c3eff), url("../img/involve2.jpg"); }
     .card__picture--p3 {
-      background-image: linear-gradient(to right, #55c57a, #28b485), url(../../../resources/img/involve3.jpg); }
+      background-image: linear-gradient(to right, #55c57a, #28b485), url("../img/involve3.jpg"); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
     @media (max-width: 900px) {
@@ -533,17 +533,17 @@ body {
     object-fit: cover; }
 
 .enroll {
-  background-image: radial-gradient(150% 200% ellipse at -15%, rgba(255, 255, 255, 0.8), 50%, transparent 50%), url("../../../resources/img/background3.jpg");
+  background-image: radial-gradient(150% 200% ellipse at -15%, rgba(255, 255, 255, 0.8), 50%, transparent 50%), url("../../resources/img/background3.jpg");
   background-size: cover;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
   border-radius: 5rem;
   height: 50rem; }
   @media (max-width: 1200px) {
     .enroll {
-      background-image: radial-gradient(150% 200% ellipse at -15%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 65%, transparent 35%), url("../../../resources/img/background3.jpg"); } }
+      background-image: radial-gradient(150% 200% ellipse at -15%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 65%, transparent 35%), url("../../resources/img/background3.jpg"); } }
   @media (max-width: 900px) {
     .enroll {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 65%), url("../../../resources/img/background3.jpg"); } }
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 65%), url("../../resources/img/background3.jpg"); } }
   .enroll__form {
     padding: 6rem; }
     @media (max-width: 1200px) {

@@ -61,15 +61,15 @@
 
         &--p1{
             background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark),
-                url(../../../resources/img/involve1.jpg);
+                url("../img/involve1.jpg");
         }
         &--p2{
             background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark),
-                url(../../../resources/img/involve2.jpg);
+                url("../img/involve2.jpg");
         }
         &--p3{
             background-image: linear-gradient(to right, $color-tertiary-light, $color-tertiary-dark),
-                url(../../../resources/img/involve3.jpg);
+                url("../img/involve3.jpg");
         }
     }
 
